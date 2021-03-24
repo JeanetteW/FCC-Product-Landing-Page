@@ -1,0 +1,68 @@
+.navbar {
+  background-color: #C5CAE9;
+}
+
+.call-to-action {
+  margin-top: 10em;
+  text-align: center;
+}
+
+.email {
+  width: 30%;
+  margin: 2rem 0;
+}
+
+.buttons {
+  background-color: #0200C7;
+}
+
+.applications {
+  width: 70%;
+  margin: 5rem auto;
+}
+
+.fas {
+  font-size: 4.075rem;
+}
+
+.video {
+  width: 40%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.pricing {
+  margin: 3rem 15rem;
+}
+
+.card {
+  width: 18rem;
+}
+
+
+.card-heading {
+  background-color: #0d6efd;
+  border-radius: 5px;
+}
+
+.third-card-text {
+  height: 9rem;
+}
+
+.footer {
+  background-color: #C5CAE9;
+  color: #6D6B5C;
+  padding: 1rem 0 0.5rem 1%;
+  width: 100%;
+  
+}
+
+.links {
+  position: absolute;
+  right: 1%;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: #6d6b5c;
+}

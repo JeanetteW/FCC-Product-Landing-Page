@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>FCC: Product Landing Page</title>
+
+  <!--Stylesheets-->
+  <link rel="stylesheet" href="css\styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!--Icon Links-->
+  <script src="https://kit.fontawesome.com/f912383306.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+  <header id="header">
+    <nav id=nav-bar class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <img class="navbar-brand" id="header-img" src="images\logo.png" alt="company-logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#applications">Applications</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#video">How It Works</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </nav>
+  </header>
+
+  <div class="call-to-action">
+    <img src="images\logo.png" alt="oxybite-company-logo">
+    <h1>The only disinfectant you'll ever need</h1>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+      <input id="email" class="email" type="email" name="email" value="" placeholder="Enter your email address"><br>
+      <input class="btn btn-primary" id="submit" type="submit" name="email" value="Request a Quote">
+    </form>
+  </div>
+
+
+  <div class="applications">
+    <div class="container" id="applications">
+      <div class="row">
+        <div class="grid-icon col-lg-1">
+          <i class="fas fa-spray-can"></i>
+        </div>
+        <div class="col-lg-11 appinfo">
+          <h2>Surface Disinfectant</h2>
+          <p class="applications-par">Simply spray on any surface after cleaning and let dry. Solution can also be used in ULV machines.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="grid-icon col-lg-1">
+          <i class="fas fa-hand-sparkles"></i>
+        </div>
+        <div class="col-lg-11 appinfo">
+          <h2>People, Animal & Food Safe</h2>
+          <p class="applications-par">Safe to use all over your body and clothes, spray pet's fur and all food and groceries.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="grid-icon col-lg-1">
+          <i class="fas fa-bacteria"></i>
+        </div>
+        <div class="col-lg-11 appinfo">
+          <h2>Kills 99.99% Known Bacteria</h2>
+          <p class="applications-par">Oxybite kills Covid-19, Salmonella, Listeria, e.Coli and so many other viruses, bacteria, mould and fungi</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="video">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/WDVmaE4BzAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+<div class="pricing">
+  <div class="row" id="pricing">
+    <div class="col-lg-4">
+      <div class="card text-center">
+        <div class="card-body p-0">
+          <h3 class="card-title card-heading text-light p-2">Oxybite Ag+ 3%</h3>
+          <h4 class="card-subtitle mb-2 text-muted">R45 per litre</h4>
+            <p class="card-text">
+              Available in:<br>
+              1L<br>
+              5L<br>
+              10L<br>
+              25L<br>
+              1 000L</p>
+            </p>
+          <a href="#" class="btn btn-primary d-grid p-2">Select</a>
+        </div>
+    </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card text-center">
+        <div class="card-body p-0">
+          <h3 class="card-title card-heading text-light p-2">Oxybite Ag+</h3>
+          <h4 class="card-subtitle mb-2 text-muted">R 286 per litre</h4>
+            <p class="card-text">
+              Available in:<br>
+              1L<br>
+              5L<br>
+              10L<br>
+              25L<br>
+              1 000L
+            </p>
+          <a href="#" class="btn btn-primary d-grid p-2">Select</a>
+        </div>
+    </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card text-center">
+        <div class="card-body p-0">
+          <h3 class="card-title card-heading text-light p-2">Fogging Service</h3>
+          <h4 class="card-subtitle mb-2 text-muted">From R 350</h4>
+          <p class="card-text third-card-text">Less than 200m<sup>2</sup> - R 350<br>
+            Less than 550m<sup>2</sup> - R 850<br>
+            More than 550m<sup>2</sup> - <br>from R 1200</p>
+          <a href="#" class="btn btn-primary d-grid p-2">Select</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <footer>
+    <div class="footer">
+      <div class="links">
+        <a class="footer-links" href="#">Privacy</a>
+        <a class="footer-links" href="#">Terms</a>
+        <a class="footer-links" href="#">Contact</a>
+      </div>
+<div class="copyright">
+  <p>Copyright 2021, Oxybite</p>
+</div>
+
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+
+</html>
